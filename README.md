@@ -6,7 +6,7 @@ To help investigate the behavior of the CLIP and Dall-E VAE packages under diffe
 Plan on hosting this on streamlit - at which time will add a URL here.
 
 ## License
-MIT. OpenAI's CLIP models & Dall-E VAE are under Apache 2.0 Licenses. 
+MIT. OpenAI's CLIP models & Dall-E VAE are under Apache 2.0 Licenses and Modified MIT respectively (last time I checked). 
 
 ## Installation and run
 ```
