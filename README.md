@@ -5,10 +5,14 @@ To help investigate the behavior of the CLIP and Dall-E VAE packages under diffe
 ## TBD
 Plan on hosting this on streamlit - at which time will add a URL here.
 
+## License
+MIT. OpenAI's CLIP models & Dall-E VAE are under Apache 2.0 Licenses. 
+
 ## Installation and run
 ```
-git clone https://github.com/ModMorph/albumentations-demo
-cd albumentations-demo
+git clone https://github.com/ModMorph/golly-dalle
+cd golly-dalle
+git submodule update --init --recursive
 pip install -r requirements.txt
 streamlit run src/app.py
 ```
