@@ -1,21 +1,18 @@
-# albumentations-demo
+# by-golly-dalle ad hoc debug/perception lab
 
-This service is created to demonstrate abilities of the [Albumentations](https://github.com/albumentations-team/albumentations) - a library for efficient image augmentations.
-[Link to my article about augmentations selection and why this service can be useful](https://towardsdatascience.com/explore-image-augmentations-using-a-convenient-tool-a199b4ac8214)
+To help investigate the behavior of the CLIP and Dall-E VAE packages under different conditions, and find better techniques for employing them for Generative & Zero-Shot Classification Learning, I decided to get a better structured streamlit app to combine with my ad hoc experiments using streamlit for comparative analysis of Dall-E and CLIP. So I found the albumentations-demo [https://albumentations-demo.herokuapp.com/](https://albumentations-demo.herokuapp.com/) from Ilia Larchenko, which already had a panopoly of effects I wanted to experiment with comparatively and seemed well structured compared to the spaghetti of my first streamlit apps. 
 
-## Easy start
-You can play with this service right now [https://albumentations-demo.herokuapp.com/](https://albumentations-demo.herokuapp.com/)
-(It is deployed on free service with very limited computing power and can be quite unstable)
-
-If you would like to run it locally follow the installation instruction.
+## TBD
+Plan on hosting this on streamlit - at which time will add a URL here.
 
 ## Installation and run
 ```
-git clone https://github.com/IliaLarchenko/albumentations-demo
+git clone https://github.com/ModMorph/albumentations-demo
 cd albumentations-demo
 pip install -r requirements.txt
 streamlit run src/app.py
 ```
+
 
 If you want to work with you own images just replace the last line with:
 ```
