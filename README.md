@@ -2,8 +2,7 @@
 
 To help investigate the behavior of the CLIP and Dall-E VAE packages under different conditions, and find better techniques for employing them for Generative Models & Zero-Shot Classification Learning, I decided to get a better structured streamlit app to combine with my ad hoc experiments using streamlit for comparative analysis of Dall-E and CLIP. So I found the albumentations-demo [https://albumentations-demo.herokuapp.com/](https://albumentations-demo.herokuapp.com/) from Ilia Larchenko, which already had a panopoly of effects I wanted to experiment with comparatively and seemed well structured compared to the spaghetti of my first streamlit apps. 
 
-## TBD
-Plan on hosting this on streamlit - at which time will add a URL here.
+
 
 ## License
 MIT. OpenAI's CLIP models & Dall-E VAE are under Apache 2.0 Licenses and Modified MIT respectively (last time I checked). 
